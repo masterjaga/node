@@ -1,12 +1,12 @@
 # nodejs-filesystem
 
-Deployed Heroku URL
+Deployed Heroku URL :
 
 https://nodejs-filesystem-umesh.herokuapp.com/
 
 Endpoints :
 
-Endpoint 2 : to create a text file with curent timestamp
+Endpoint 1 : to create a text file with curent timestamp
 Type = GET
 
 https://nodejs-filesystem-umesh.herokuapp.com/createFile
