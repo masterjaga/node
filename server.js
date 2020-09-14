@@ -4,7 +4,11 @@ var app = express();
 
 // create file system variables
 var fs = require('fs');
-const path = require('path'); 
+const path = require('path');
+
+app.get('/', function (req, res) {
+   res.send('Hello From Heroku !');
+})
 
 // Endpoint to create a text file with curent timestamp in current folder
 // Type = GET
